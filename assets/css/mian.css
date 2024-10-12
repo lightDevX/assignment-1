@@ -87,5 +87,73 @@ header {
 }
 
 .service-section {
-	padding: 75px 0;
+	.container {
+		.services-box {
+			border-radius: 16px;
+			background: rgba(13, 19, 33, 0.02);
+			margin: 75px 100px;
+			padding: 80px 100px;
+			.title {
+				color: rgb(13, 19, 33);
+				font-family: Azeret Mono;
+				font-size: 32px;
+				font-weight: 800;
+				line-height: 37px;
+				letter-spacing: 0%;
+				text-align: center;
+				margin: 24px 0;
+			}
+			.description {
+				color: rgb(13, 19, 33);
+				font-family: Azeret Mono;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 26px;
+				letter-spacing: 0%;
+				text-align: center;
+				opacity: 0.7;
+			}
+			.single-service {
+				margin-top: 48px;
+				border-radius: 16px;
+				padding: 50px;
+				background: linear-gradient(
+					90deg,
+					rgb(255, 255, 255),
+					rgba(255, 255, 255, 0) 100%
+				);
+				.description-part {
+					width: 480px;
+					h2.title {
+						color: rgba(13, 19, 33, 0.7);
+						font-family: Azeret Mono;
+						font-size: 24px;
+						font-weight: 700;
+						line-height: 36px;
+						letter-spacing: 0%;
+						text-align: left;
+					}
+					p.description {
+						color: rgb(13, 19, 33);
+						font-family: Azeret Mono;
+						font-size: 16px;
+						font-weight: 400;
+						line-height: 26px;
+						letter-spacing: 0%;
+						text-align: left;
+						opacity: 0.7;
+					}
+					a.btn-primary {
+						margin-top: 32px;
+					}
+				}
+				.image-part {
+					.image {
+						width: 250px;
+						height: 218px;
+					}
+				}
+			}
+		}
+	}
 }
